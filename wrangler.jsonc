@@ -252,6 +252,6 @@
   //   想让浏览器直连，可在存储配置里填 custom_host（r2.dev 公开域名或自定义域名）。
   //
   "r2_buckets": [
-    { "binding": "R2", "bucket_name": "your-bucket" }
+    { "binding": "R2", "bucket_name": "openlist" }
   ],
 }
