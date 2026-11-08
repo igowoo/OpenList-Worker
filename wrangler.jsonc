@@ -251,7 +251,7 @@
   //   注意：binding 模式下载走 Worker 流式转发（R2 绑定不提供预签名 URL）；
   //   想让浏览器直连，可在存储配置里填 custom_host（r2.dev 公开域名或自定义域名）。
   //
-  // "r2_buckets": [
-  //   { "binding": "R2", "bucket_name": "your-bucket" }
-  // ],
+  "r2_buckets": [
+    { "binding": "R2", "bucket_name": "your-bucket" }
+  ],
 }
